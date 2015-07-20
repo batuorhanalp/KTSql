@@ -32,12 +32,12 @@ Import where parameters only and returns sql query.
 >
 >	parameters.Add(new KTWhereParameter
 >	{
->	    ColumnName = "column1",
->	    DbType = DbType.String,
->	    ParameterName = "PARAM1",
->	    Value = "[DATA]",
->	    OperatorSymbol = "="
->	});
+>		ColumnName = "column1",
+>		DbType = DbType.String,
+>		ParameterName = "PARAM1",
+>		Value = "[DATA]",
+>		OperatorSymbol = "="
+>		});
 >
 >   var whereQuery = QueryHelper.GenerateWhere(parameters);
 >
